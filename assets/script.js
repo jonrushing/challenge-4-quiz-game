@@ -1,16 +1,18 @@
 const mainMenu = document.getElementById("mainMenu")
 const startButton = document.getElementById("startBtn")
+const rules = document.getElementById("rulesCard")
 const quizBox = document.getElementById("quizCard")
 
-startButton.addEventListener("click", startgame)
 
-function startgame(){
+startButton.addEventListener("click", showrules)
+
+function showrules(){
     if (mainMenu.style.display !== "none") {
     mainMenu.style.display = "none";
     }
-    if (quizBox.style.display !== "grid") {
-    quizBox.style.display = "grid";
+    if (rules.style.display !== "grid") {
+    rules.style.display = "grid";
         }
-    
-    console.log(startButton)
 }
+
+const playGame = document.getElementById("startGame")
