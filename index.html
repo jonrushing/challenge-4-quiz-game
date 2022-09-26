@@ -15,7 +15,7 @@
                 Score
             </p>
             <p id="scorenum">
-                100
+                0
             </p>
             
         </div>
@@ -33,7 +33,12 @@
     </header>
 
     <div class="main-container">
-        <div class="quiz-card">
+        <div id= "mainMenu" class="main-menu">
+           Care to take a quiz?
+           <button id="startBtn" class="main-menu-btn">Start</button>
+           <button id="highScore" class="main-menu-btn">High Score</button>
+        </div>
+        <div id="quizCard" class="quiz-card">
             <div id="questionContainer" class="hidden">
                 <div id="question" class="question-container">
                     question
@@ -50,4 +55,5 @@
         </div>
     </div>
 </body>
+<script src="/assets/script.js"></script> 
 </html>

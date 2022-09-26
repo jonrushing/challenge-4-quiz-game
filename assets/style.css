@@ -57,7 +57,19 @@ body{
     background-color: aquamarine;
 }
 
+.main-menu{
+    
+    display:grid;
+    gap:10px;
+    font-size: 40px;
+}
+.main-menu-btn{
+    font-size: 30px;
+    
+}
+
 .quiz-card{
+    display:none;
     width: 1000px;
     max-width: 75%;
     background-color: white;
