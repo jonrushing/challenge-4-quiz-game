@@ -70,7 +70,7 @@ body{
 
 .rules{
     display:none;
-    font-size: 30px;
+    font-size: 25px;
     height: 70%;
     width: 50%;
     color: black;
@@ -78,10 +78,11 @@ body{
 
 }
 .lets-play{
+    
     padding-left: 30px;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 25px;
 }
 .quiz-card{
     display:none;
@@ -112,4 +113,13 @@ body{
 
 .hide{
     display:none;
+}
+
+.gameover{
+    display:none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 200px;
+    color: red;
 }
