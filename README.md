@@ -35,12 +35,11 @@
 
  Deployment Link:
 
- https://obscure-fortress-08733.herokuapp.com/
  
  
  
- ![](public/assets/imgs/noteTakerHome.png)
+ ![](assets/1.png)
  
- ![](public/assets/imgs/noteTaker2.png)
+ ![](assets/2.png)
  
- ![](public/assets/imgs/notTaker3.png)
+ ![](assets/3.png)
