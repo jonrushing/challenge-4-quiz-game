@@ -26,7 +26,7 @@ var timer = document.getElementById("timer")
 var timerStart = 31
 
 
-    
+    console.log(timerStart)
 
 var randomquestion, currentQuestionIndex
 
