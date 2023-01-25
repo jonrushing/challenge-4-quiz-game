@@ -107,6 +107,7 @@ function wrongAnswer(){
 
 }
 }
+//Questions used for the game
 const questions = [
     {question: "What sound does a cow make?",
         answers:[
