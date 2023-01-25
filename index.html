@@ -4,9 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/assets/style.css">
     <title>Quiz Time!</title>
 </head>
+
 <body>
+    <header class="upper-container">
+        <div class="scorebox">
+            <p id="scoreul">
+                Score
+            </p>
+            <p id="scorenum">
+                0
+            </p>
+            
+        </div>
+        <div class="title">
+            Quiz Time!
+        </div>
+        <div class="timer">
+            <p id="timeleftul">
+                Time Left
+            </p>
+            <p id="timer">
+                
+            </p>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <div id= "mainMenu" class="main-menu">
+           Care to take a quiz?
+           <button id="startBtn" class="main-menu-btn">Start</button>
+           <button id="highScore" class="main-menu-btn">High Score</button>
+        </div>
+
+
     
+        <div id="rulesCard" class="rules">
+            <p>The game will start and you will have 30 Seconds to answer five questions.<br>
+            <br>
+            Get a correct answer and you'll get 10 points!<br>
+            <br>
+            Get a wrong answer and you'll lose two second off the clock!<br>
+            <br>
+            Good luck!
+            </p>
+
+            <button id="startGame" class="lets-play">Let's Play!</button>
+
+
+        
+    </div>
+        <div id="quizCard" class="quiz-card">
+            <div id="questionContainer" class="hidden">
+                <div id="question" class="question-container">
+                    question
+                </div>
+                <div id="answerButtons" class="button-container">
+                    <button class="answer-button">Answer 1</button>
+                    <button class="answer-button">Answer 2</button>
+                    <button class="answer-button">Answer 3</button>
+                    <button class="answer-button">Answer 4</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id= "gameOver" class="gameover">GAMEOVER</div>
 </body>
+<script src="/assets/script.js"></script> 
 </html>
