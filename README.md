@@ -34,8 +34,9 @@
 
 
  Deployment Link:
+(works with live sever??)
 
- 
+ https://jonrushing.github.io/challenge-4-quiz-game/
  
  
  ![](assets/1.png)
